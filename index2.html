@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Registration</title>
+    <title>Document</title>
 </head>
 <body>
-    <h2>Login Registration</h2>
-    <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br><br>
-        <button type="submit">Register</button>
-    </form>
+    <div style="display: flex; height: 100vh;"></div>
+        <div style="width: 30%; border-right: 2px solid grey; padding: 32px; box-sizing: border-box;">
+            <h2>Menu</h2>
+            <ul>
+                <li>Option 1</li>
+                <li>Option 2</li>
+                <li>Option 3</li>
+                <li>Option 4</li>
+            </ul>
+        </div>
+        <div style="width: 70%; padding: 32px; box-sizing: border-box;">
+            <h2>Login Registration</h2>
+            <form>
+                <div style="margin-bottom: 16px;">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div style="margin-bottom: 16px;">
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
