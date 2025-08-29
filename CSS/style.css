@@ -1,0 +1,44 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    background-color: brown;
+    color: white;
+}
+h2,p,h3{
+    background-color: purple;
+    color: white;
+}
+.Heading1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+} */
+div~p{
+    background-color: purple;
+}
+p:hover{
+    background-color: cadetblue;
+    font-size: small;
+    color: chocolate;
+}
+p::after{
+    content: "React Developer";
+    background-color: brown;
+    color: white;
+}
+p::before{
+    content: "Hey,Learnign React";
+    background-color: aquamarine;
+}
+p::selection{
+    background-color: chartreuse;
+
+}
+p:nth-child{
+    background-color: black;
+}
+div p:nth-of-typeO(1){
+    
+}
