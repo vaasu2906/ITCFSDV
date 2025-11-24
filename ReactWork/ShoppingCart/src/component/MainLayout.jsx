@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Dashboard from './Dashboard'
 function MainLayout() {
   return (
-    <div><h2>MainLayout</h2></div>
+    <><Dashboard></Dashboard></>
   )
 }
 
